@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiKeyboardSafeAreaTest.MainPage"
+             Title="Main Page">
+
+    <Grid RowDefinitions="*,Auto,Auto">
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout Margin="10" Spacing="10">
+                <Entry Placeholder="Placeholder 1" />
+                <Entry Placeholder="Placeholder 2" />
+                <Entry Placeholder="Placeholder 3" />
+                <Entry Placeholder="Placeholder 4" />
+                <Entry Placeholder="Placeholder 5" />
+                <Entry Placeholder="Placeholder 6" />
+                <Entry Placeholder="Placeholder 7" />
+                <Entry Placeholder="Placeholder 8" />
+                <Entry Placeholder="Placeholder 9" />
+                <Entry Placeholder="Placeholder 10" />
+                <Entry Placeholder="Placeholder 11" />
+                <Entry Placeholder="Placeholder 12" />
+                <Entry Placeholder="Placeholder 13" />
+                <Entry Placeholder="Placeholder 14" />
+                <Entry Placeholder="Placeholder 15" />
+                <Entry Placeholder="Placeholder 16" />
+                <Entry Placeholder="Placeholder 17" />
+                <Entry Placeholder="Placeholder 18" />
+                <Entry Placeholder="Placeholder 19" />
+                <Entry Placeholder="Placeholder 20" />
+            </VerticalStackLayout>
+        </ScrollView>
+        
+        <Grid Row="1" Margin="10" SafeAreaEdges="SoftInput">
+            <Button Text="Button" />
+        </Grid>
+        
+        <Grid Row="2" Margin="10">
+            <Label Text="v1.0.0 (or something)" HorizontalOptions="Center"/>
+        </Grid>
+        
+    </Grid>
+
+</ContentPage>
