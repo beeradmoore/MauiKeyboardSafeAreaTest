@@ -30,11 +30,11 @@
             </VerticalStackLayout>
         </ScrollView>
         
-        <Grid Row="1" Margin="10" SafeAreaEdges="SoftInput">
+        <Grid Grid.Row="1" Margin="10"  SafeAreaEdges="SoftInput">
             <Button Text="Button" />
         </Grid>
         
-        <Grid Row="2" Margin="10">
+        <Grid Grid.Row="2" Margin="10">
             <Label Text="v1.0.0 (or something)" HorizontalOptions="Center"/>
         </Grid>
         
